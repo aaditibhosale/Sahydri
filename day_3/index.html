@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Creation Of Form<h1>
+    <form>
+        <lable for="First Name"> First Name</lable><br>
+        <input type = "text" placeholder="First Name" size="50" autocomplete="off"><br>
+        <lable for ="email">Email</lable><br>
+        <input type ="email" placeholder="Email" size="50" autocomplete="on"><br>
+        <lable for ="tel">Phone No</lable><br>
+        <input type="tel"  placeholder="Phone no" size="50" required><br>
+        <lable>PIN:</lable><br>
+        <input type ="text" name="PIN" maxlength="4" size="10" ><br>
+        <lable>Quantity:</lable><br>
+        <input type ="number" name="Quantity" min="1" max="5" autofocus><br>
+        <input type="submit" value="submit">
+        <hr>
+        <!-- checkbox for select multiple options -->
+        <input type="checkbox" value="CSE">
+        <lable for ="bike">CSE</lable><br>
+        <input type="checkbox" value="E&TC">
+        <lable for ="bike">E&TC</lable><br>
+        <hr>
+        <!-- radio -->
+        <input type="radio" id="cse" name="branch" value="CSE">
+        <lable for ="cse">CSE</lable><br>
+        <input type="radio" id="e&tc" name="branch" value="E&TC">
+        <lable for ="e&tc">E&TC</lable><br>
+        <input type ="radio" id="civil" name="branch" value="CIVIL">
+        <lable for = "civil">CIVIL</lable><br>
+        <hr>
+        <label for="age">Age</label>
+        <input type ="number" id="age" name="age" value="AGE">
+        <hr>
+        <lable for="date">Select Date</lable>
+        <input type ="date" id="date" name="date" value="DATE">
+        <hr>
+        <!-- <lable for ="month">Month </lable>
+        <inpur type="month" id="month" name="month" value="MONTH">
+        <hr> -->
+        <input type="reset" value="Reset">
+        <!-- button -->
+ <button type = "button" onclick="alert('hello')">click Me!</button>
+
+        <hr>
+
+        <select>
+            <option value="free">Free</option>
+            <option value="starter" selected>Starter </option> 
+            <option value="professional">Professional</option>
+            <option value="corporate">Corporate</option>
+        </select>
+
+        <!-- selected is used for by default -->
+<br>
+        <select>
+            <option value="cse" selected>CSE</option>
+            <option value="e&tc">E&TC</option>
+            <option value="civil">CIVIL</option>
+        </select> 
+        <hr>   
+    
+        <input type ="color" value="color">
+        <br>
+
+        <!-- textarea -->
+        <textarea name="message" row="10" cols="30">
+        I am Aaditi Bhosale. 
+        I am studying in CSE.
+        </textarea>
+
+        <br>
+
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
+<br>
+<hr>
+
+
+
+
+
+</form>
+
+<!-- fildset : group related data in a form -->
+ <!-- legent: caption of the fildset element-->
+<hr>
+ <form>
+    <fieldset>
+        <legend>Personal</legend>
+        <label>First Name: </label>
+        <input type="text" value="Aaditi"><br>
+        <lable>Last Name: </lable>
+        <input type ="text" value="Bhosale"><br>
+        <label>Birthdate: </label>
+        <input type="date">
+        </fieldset>
+    </form>
+ 
+<br>
+    <label for="myfile">Select a file:</label>
+    <input type="file" id="myfile" name="myfile" >
+<br>
+    <lable for ="image">uplode an image</lable>
+<input type="image" src="./submit.jpeg" alt="Submit" width="48" height="48">
+
+
+<hr>
+<label>Range:</label>
+<input type ="range"><br>
+<label>Search:</label>
+<input type="search"><br>
+<label>Time:</label>
+<input type="time"><br>
+<label>URL:</label>
+<input type ="url"><br>
+<label>Week:</label>
+<input type = "week"><br>
+
+<hr>
+<!-- Range input with specific min, max, and step values -->
+<input type="range" min="0" max="100" step="10" value="50" aria-label="Adjust volume level"><br>
+
+<!-- Search input with a placeholder for better context -->
+<input type="search" placeholder="Search products..." aria-label="Search in the catalog"><br>
+
+<!-- Time input with default value and step for interval -->
+<input type="time" value="14:30" step="900" aria-label="Select meeting time"><br>
+
+<!-- URL input with a placeholder and required attribute -->
+<input type="url" placeholder="https://example.com" required aria-label="Enter your website URL"><br>
+
+<!-- Week input with default value and a specific label -->
+<input type="week" value="2024-W40" aria-label="Choose a week for reporting"><br>
+
+<hr>
+
+<!-- readonly -->
+ <lable>Readonly:</lable>
+ <input type ="text" value="Aaditi" readonly>
+
+ <!-- disabled -->
+  <lable>Disable:</lable>
+  <input type ="text"value="Aaditi" disabled>
+
+  <!-- <input type ="text" role="alert"> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- dataset in html used for list similar type of data  -->
+</body>
+</html>

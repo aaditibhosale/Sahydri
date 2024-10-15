@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        form {
+            margin: 20px;
+        }
+        label {
+            display: inline-block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        input, select {
+            margin-bottom: 15px;
+        
+        }
+        input[type="radio"], input[type="checkbox"] {
+            width: auto;
+        }
+        input[type="button"] {
+            width: auto;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>We Value Your Feedback</h1>
+    <form>
+    <label>Name:</label><br>
+    <input type="type" placeholder="Name" size ="40"><br>
+
+    <label>Your Feedback</label><br>
+    <textarea name="message" row="10" cols="30"> </textarea><br>
+
+    <label>Rate Our Service (1-5):</label><br>
+        <input type ="radio">
+        <label>1</label><br>
+
+        <input type="radio">
+        <label>2</label><br>
+
+        <input type="radio">
+        <label>3</label><br>
+
+        <input type ="radio">
+        <label>4</label><br>
+
+        <input type="radio">
+        <label>5</label><br>
+
+        <label>Would you recommend us?</label><br>
+        <input type="checkbox">
+        <lable>Yes</lable><br>
+
+        <input type = "button" value="Submit Feedback">
+    </form>
+
+</body>
+</html>
