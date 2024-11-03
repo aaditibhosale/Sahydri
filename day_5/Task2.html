@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: black;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-bottom: 4px solid white;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 2rem;
+            margin-left: 2rem;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 2rem;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2rem;
+        }
+        .card {
+            width: 450px;
+            height: 450px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            text-align: center;
+            
+            background-color: #fff;
+            /* border-radius: 8px; */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 310px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .card button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            /* cursor: pointer;
+            border-radius: 3px;
+            pointer-events:visibleStroke green; */
+        }
+
+        .card button:hover {
+            background-color: #218838;
+        }
+        p.pr{
+            text-size-adjust: 50%;
+        }
+        
+        p.f{
+            width: auto;
+            height: 25px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom:20px ;
+            /* justify-content: center; */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Our Online Store</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">New Arrive</a>
+            <a href="#">Best Sellers</a>
+            <a href="#">Sale</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <img src="productImage.jpg" alt="P1">
+            <p class="pr"><b>Product 1</b></p>
+            <p class="pr">$19.99</p>
+
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="productImage.jpg" alt="p2">
+            <p class="pr"><b>Product 2</b></p>
+            <p class="pr">$21.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="productImage.jpg" alt="P3">
+            <p class="pr"><b>Product 3</b></p>
+            <p class="pr">$24.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="productImage.jpg" alt="P4">
+            <p class="pr"><b>Product 4</b></p>
+            <p class="pr">$9.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <footer>
+        <p class="f">@2023 Our Online Store.All rights reserved<p>
+    </footer>
+</body>
+</html>

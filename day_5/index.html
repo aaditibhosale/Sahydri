@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        p.uppercase{
+            text-transform:uppercase;
+        }
+        p.lowercase{
+            text-transform:lowercase;
+        }
+        p.capitalize{
+            text-transform:capitalize;
+        }
+        p.none{
+            text-transform:none;
+        }
+        /* p.cla()
+        {
+            text-transform:cal();
+        } */
+         p.initial{
+            text-transform: initial;
+         }
+         h3{
+            text-indent: 50px;
+         }
+         h2{
+            letter-spacing: 5px;
+         }
+         h1{
+            letter-spacing: -4px;
+         }
+         p.small{
+            line-height: 5px;
+         }
+         p.large{
+            line-height:-5px;
+         }
+         p.one
+         {
+            word-spacing: 12px;
+         }
+         p.two{
+            word-spacing: -2px;
+         }
+        h1.shadow{
+            text-shadow: 2px 3px 3px #ff0000;
+
+         }
+
+         ul.a{
+            list-style-type: circle;
+
+         }
+         ul.b{
+            list-style-type:square;
+         }
+         ol.c{
+            list-style-type: upper-roman;
+         }
+         ol.d{
+            list-style-type:lower-roman;
+         }
+         ul.A{
+            list-style-position: inside;
+         }
+         ul.B{
+            list-style-position: outside;
+         }
+
+        ol.C{
+            list-style-position: inside;
+        }
+        ol.D{
+            list-style-position: outside;
+        }
+        p.family1{
+            font-family: serif;
+            font-size: 10em;
+        }
+        p.family2
+        {
+            font-family: sans-serif;
+            font-size: 10ex;
+        }
+        p.family3
+        {
+            font-family: monospace;
+            font-size: 10ch;
+        }
+        p.family4
+        {
+            font-family: cursive;
+            font-size: 10rem;
+        }
+        p.family5
+        {
+            font-family: fantasy;
+            font-size: 10vw;
+        }
+        h1.font1
+        {
+            font-variant: normal;
+        }
+        h1.font2
+        {
+            font-variant: small-caps;
+        }
+
+        p.lorem
+        {
+            background-color: blueviolet;
+            color: white;
+            width: calc(100%-500px);
+            font-size: x-large;     
+        }
+
+        #para1
+        {
+          width: min(100%,300px);
+          font-size: larger;
+          font-family: sans-serif;
+        }
+
+        #para2
+        {
+          width: max(100%,300px);
+          font-size: larger;
+          font-family: sans-serif;
+        }
+        </style>
+</head>
+
+<body>
+    <h1 style="color:blueviolet; size:50px">TEXT TRANSFORMATION</h1><hr><hr>
+    <p class="uppercase">use text transformation to these sentance</p>
+    <p class ="lowercase"> I am in Lowercase</p>
+    <p class ="capitalize">I am capitalize</p>
+    <p class="none">used none to the sentance</p>
+    <p class="cal()">caluatated function is used</p>
+    <p class="initial">aaditi bhosale</p><hr>
+
+    <h3>Hi I am Aaditi Bhosale. I am living in bhuinj using text-indent</h3><hr>
+
+    <h2> It is used for heading using letter-spacing</h2>
+
+    <h1>Letter letter-spacing for heading 1 using letter-spacing</h1><hr>
+
+    <p class="small">I am Aaditi Pramod Bhosale.<br>
+         I am here to learn HTML and CSS using line-height</p>
+    <p class="large">I am Aaditi Pramod Bhosale.<br>
+        I am here to learn HTML and CSS using line-height</p><hr>
+
+         <p class="one">Laarge word space Aaditi Bhosale using word-spacing</p>
+         <p class="two">small word space using word-spacing</p><hr>
+
+         <h1 class="shadow">Aaditi Pramod Bhosale look shadow to the text</h1><hr>
+
+         <!-- LIST -->
+         <b>Using list-style-type property</b>
+          <ul class="a">
+            <li>Aaditi</li>
+            <li>Aankita</li>
+            <li>Aarti</li>
+            <li>Tanu</li>
+            <li>Ved</li>
+            </ul>
+
+            <ul class="b">
+                <li>Aaditi</li>
+                <li>Aankita</li>
+                <li>Aarti</li>
+                <li>Tanu</li>
+                <li>Ved</li>
+                </ul>
+
+        <ol class="c">
+            <li>Aaditi</li>
+            <li>Aankita</li>
+            <li>Aarti</li>
+            <li>Tanu</li>
+            <li>Ved</li>
+        </ol>
+
+        <ol class="d">
+            <li>Aaditi</li>
+            <li>Aankita</li>
+            <li>Aarti</li>
+            <li>Tanu</li>
+            <li>Ved</li>
+        </ol>
+        <hr>    
+
+        <b>Using list-style-position property</b>
+        <ul class="A">
+            <li>Aaditi Bhosale</li>
+            <li>Sakshi shinde</li>
+            <li>Sanchita jadhav</li>
+        </ul>
+
+        <ul class="B">
+            <li>Aaditi Bhosale</li>
+            <li>Sakshi shinde</li>
+            <li>Sanchita jadhav</li>
+        </ul>
+
+        <ol class ="C">
+            <li>Aaditi Bhosale</li>
+            <li>Sakshi shinde</li>
+            <li>Sanchita jadhav</li>
+        </ol>
+            
+        <ol class ="D">
+            <li>Aaditi Bhosale</li>
+            <li>Sakshi shinde</li>
+            <li>Sanchita jadhav</li>
+        </ol>
+        <hr>
+
+        <b>font family and font size</b>
+        <p class="family1">HELLO, I am Aaditi Bhosale.By using fonts we see the letter difference.</p>
+        <p class="family2">HELLO, I am Aaditi Bhosale.By using fonts we see the letter difference.<b>these is bydefault font in arial</b></p>
+        <p class="family3">HELLO, I am Aaditi Bhosale.By using fonts we see the letter difference.</p>
+        <p class="family4">HELLO, I am Aaditi Bhosale.By using fonts we see the letter difference.</p>
+        <p class="family5">HELLO, I am Aaditi Bhosale.By using fonts we see the letter difference.</p>
+ <hr>
+        <h1 class="font1">Aaditi in normal font variant</h1>
+        
+        <h1 class="font2">Aaditi in small-caps font variant</h1>
+        <hr>
+
+        <!-- font size -->
+
+        <p style="font-size: x-large;">Aaditi in x-large</p>
+        <p style="font-size: xx-large;">Aaditi in xx-large</p>
+        <p style="font-size: x-small;">Aaditi in x-small</p>
+        <p style="font-size: xx-small;">Aaditi in xx-small</p>
+        <p style="font-size: 10vmax;">Aaditi in vmax</p>
+        <p style="font-size: 10vh;">Aaditi in vh</p>
+        <p style="font-size: 10 medium;">Aaditi in medium</p>
+        <p style="font-size: 10rem;">Aaditi in rem</p>
+        <p style="font-size: 10 vmin;">Aaditi in vmin</p>
+        <p style="font-size: 10%;">Aaditi in 10%</p>
+        <p style="font-size: 10cqh;">Aaditi in cqh</p>
+        <p style="font-size: 10dvi;">Aaditi in dvi</p>
+        <hr>
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam doloremque repellendus cupiditate atque aliquam labore et quos incidunt. Ipsam voluptates quia illum natus dicta molestiae ut perspiciatis dolor praesentium.</p>
+        <hr>
+        <b style="font-size: x-large;"> using function: min()</b>
+        <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, facilis libero, dicta nemo iusto quibusdam dolorum voluptate nulla est, magni ea necessitatibus beatae autem excepturi qui ipsam id sint neque.</p>
+        <hr>
+        <b style="font-size: x-large;">using function: max()</b>
+        <p id="para2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus distinctio voluptates laudantium dolorem sit voluptatibus corporis temporibus magnam inventore fuga iusto ex, magni necessitatibus iste modi, at exercitationem obcaecati! Odio.</p>
+
+</body>
+</html>
